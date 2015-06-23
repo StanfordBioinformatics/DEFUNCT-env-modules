@@ -1,0 +1,23 @@
+#%Module1.0
+#
+## breakdancer modulefile
+##
+## Initializes  breakdancer
+##
+proc ModulesHelp { } {
+	global breakdancerversion
+
+	puts stderr "\tInitializes your environment to use GBSC's gbsc_utils github repository code.")"
+	puts stderr "\n\tVersion $version\n"
+}
+
+# for Tcl script use only
+#set version 0.1.0
+
+# sets the MODULESAPPSDIR env var
+#module add modsappsdir
+
+setenv GBSC_UTILS	/srv/gs1/software/gbsc/gbsc_utils
+
+prepend-path PYTHONPATH /srv/gs1/software/gbsc/gbsc_utils
+prepend-path PATH /srv/gs1/software/gbsc/gbsc_utils

@@ -1,0 +1,21 @@
+#%Module1.0
+#
+## shogun modulefile
+##
+## Initializes shogun `
+##
+proc ModulesHelp { } {
+	global shogunversion
+
+	puts stderr "\tInitializes your environment to use the shogun "
+	puts stderr "\thttp://www.shogun-toolbox.org/"
+	puts stderr "\n\tVersion $shogunversion\n"
+}
+
+# for Tcl script use only
+set shogunversion 3.2.0
+
+# sets the MODULESAPPSDIR env var
+module add modsappsdir
+
+prepend-path PATH /srv/gs1/home/chekh/src/shogun-3.2.0/
