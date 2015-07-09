@@ -17,7 +17,8 @@ proc ModulesHelp { } {
 # sets the MODULESAPPSDIR env var
 module add modsappsdir
 
-setenv GBSC_UTILS	$::env(MODULESAPPSDIR)/gbsc/gbsc_utils
+set GBSC_UTILS	$::env(MODULESAPPSDIR)/gbsc/gbsc_utils
+setenv GBSC_UTILS ${GBSC_UTILS}
 
-prepend-path PYTHONPATH $::env(MODULESAPPSDIR)/gbsc/gbsc_utils
-prepend-path PATH $::env(MODULESAPPSDIR)/gbsc/gbsc_utils
+prepend-path PYTHONPATH ${GBSC_UTILS}
+prepend-path PATH ${GBSC_UTILS}
