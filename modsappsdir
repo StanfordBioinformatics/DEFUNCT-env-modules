@@ -12,4 +12,4 @@ proc ModulesHelp { } {
 module-whatis "sets MODULESAPPSDIR"
 
 # for Tcl script use only
-setenv MODULESAPPSDIR ~/repos
+setenv MODULESAPPSDIR /srv/gs1/software

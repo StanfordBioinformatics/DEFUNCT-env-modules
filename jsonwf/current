@@ -2,7 +2,6 @@
 #
 ## bwa_tools modulefile
 ##
-## Initializes BWA pipeline scripts.
 ##
 proc ModulesHelp { } {
 	global bwatoolsversion

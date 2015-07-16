@@ -78,4 +78,4 @@ setenv GOLD_1K_INDELS $dat_dir/hg19-3.0/1000G_phase1.indels.hg19.vcf
 module load picard-tools/1.32
 
 # Setting paths and env for the Simple Job Manager (SJM)
-module load sjm
+module load sjm/1.2/15sec

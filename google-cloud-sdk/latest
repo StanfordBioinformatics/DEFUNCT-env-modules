@@ -23,3 +23,5 @@ prereq python/2.7
 module add modsappsdir
 
 prepend-path PATH $::env(MODULESAPPSDIR)/google-cloud-sdk/bin
+append-path MANPATH $::env(MODULESAPPSDIR)/google-cloud-sdk/help/man
+
