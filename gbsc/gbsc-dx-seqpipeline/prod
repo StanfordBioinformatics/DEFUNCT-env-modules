@@ -25,5 +25,5 @@ module load dnanexus_new/1.5.10
 module load gbsc/scgpm_lims
 module load gbsc/gbsc_utils
 
-prepend-path PYTHONPATH /srv/gsfs0/projects/gbsc/workspace/nathankw/repos/dnanexusScgpm/:/srv/gsfs0/projects/gbsc/workspace/nathankw/repos/dnanexusScgpm/pipeline_utils
-prepend-path PATH /srv/gsfs0/projects/gbsc/workspace/nathankw/repos/dnanexusScgpm/scripts:/srv/gsfs0/projects/gbsc/workspace/nathankw/repos/dnanexusScgpm/pipeline_utils 
+prepend-path PYTHONPATH $::env(MODULESAPPSDIR)/dnanexusScgpm/pipeline_utils
+prepend-path PATH $::env(MODULESAPPSDIR)/dnanexusScgpm/scripts:$::env(MODULESAPPSDIR)dnanexusScgpm/pipeline_utils 
