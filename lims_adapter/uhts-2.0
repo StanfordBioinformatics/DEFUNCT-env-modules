@@ -18,7 +18,7 @@ set limsadapterversion uhts-2.0
 
 # sets the MODULESAPPSDIR env var  
 module add modsappsdir
-module add scgpm_lims/current
+module add gbsc/scgpm_lims/current
 
 prepend-path PATH $::env(MODULESAPPSDIR)/gbsc/lims_adapter/$limsadapterversion/
 prepend-path PYTHONPATH $::env(MODULESAPPSDIR)/gbsc/lims_adapter/$limsadapterversion/

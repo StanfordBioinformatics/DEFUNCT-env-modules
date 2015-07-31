@@ -20,5 +20,5 @@ module add modsappsdir
 module load python/2.7
 module load rundir/current
 module load gbsc/limshostenv/prod
-module load scgpm_lims/current
+module load gbsc/scgpm_lims/current
 module load gbsc/gbsc_utils
