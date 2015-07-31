@@ -27,3 +27,4 @@ module load gbsc/gbsc_utils
 
 prepend-path PYTHONPATH $::env(MODULESAPPSDIR)/dnanexusScgpm/pipeline_utils
 prepend-path PATH $::env(MODULESAPPSDIR)/dnanexusScgpm/scripts:$::env(MODULESAPPSDIR)dnanexusScgpm/pipeline_utils 
+prepend-path PYTHONPATH $::env(MODULESAPPSDIR)/gbsc/scgpm_lims/current/
