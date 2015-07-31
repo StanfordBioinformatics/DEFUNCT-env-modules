@@ -23,5 +23,6 @@ prepend-path PATH $::env(MODULESAPPSDIR)/htslib/htslib-$version/bin
 prepend-path MANPATH $::env(MODULESAPPSDIR)/htslib/htslib-$version/share/man
 setenv HTSLIB_HOME $::env(MODULESAPPSDIR)/htslib/htslib-$version
 prepend-path LD_LIBRARY_PATH $::env(MODULESAPPSDIR)/htslib/htslib-$version/lib
+prepend-path LDFLAGS -L$::env(MODULESAPPSDIR)/htslib/htslib-$version/lib
 prepend-path C_INCLUDE_PATH $::env(MODULESAPPSDIR)/htslib/htslib-$version/include/htslib
 

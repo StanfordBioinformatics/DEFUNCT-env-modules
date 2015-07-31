@@ -80,4 +80,4 @@ module load stmp/0.1
 module load picard-tools/1.32
 
 # Setting paths and env for the Simple Job Manager (SJM)
-module load sjm
+module load sjm/1.2/15sec

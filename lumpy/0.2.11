@@ -16,6 +16,8 @@ proc ModulesHelp { } {
 # for Tcl script use only
 set version 0.2.11
 
+module add python/2.7
+
 # sets the MODULESAPPSDIR env var
 module add modsappsdir
 

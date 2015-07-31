@@ -17,6 +17,8 @@ module-whatis "initializes picard tools"
 # for Tcl script use only
 set picardtoolsversion 1.130
 
+module add java/latest
+
 # sets the MODULESAPPSDIR env var
 module add modsappsdir
 
