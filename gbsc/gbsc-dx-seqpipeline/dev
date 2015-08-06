@@ -25,6 +25,9 @@ module load dnanexus_new/1.5.10
 module load gbsc/scgpm_lims
 module load gbsc/gbsc_utils
 
+#exports env var DXTOOLKIT that needs to be sourced.
+module load dx-toolkit/current 
+
 prepend-path PYTHONPATH $::env(MODULESAPPSDIR)/dnanexusScgpm/pipeline_utils
 prepend-path PATH $::env(MODULESAPPSDIR)/dnanexusScgpm/scripts:$::env(MODULESAPPSDIR)dnanexusScgpm/pipeline_utils 
 prepend-path PYTHONPATH $::env(MODULESAPPSDIR)/gbsc/scgpm_lims/current/
