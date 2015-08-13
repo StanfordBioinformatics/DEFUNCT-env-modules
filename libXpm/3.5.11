@@ -23,4 +23,4 @@ prepend-path PATH $::env(MODULESAPPSDIR)/libXpm/$version/bin
 prepend-path LD_LIBRARY_PATH $::env(MODULESAPPSDIR)/libXpm/$version/lib
 prepend-path C_INCLUDE_PATH $::env(MODULESAPPSDIR)/libXpm/$version/include/X11
 prepend-path MANPATH $::env(MODULESAPPSDIR)/libXpm/$version/share/man
-
+prepend-path PKG_CONFIG_PATH $::env(MODULESAPPSDIR)/libXpm/$version/lib/pkgconfig

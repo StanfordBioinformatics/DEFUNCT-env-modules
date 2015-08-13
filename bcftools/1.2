@@ -25,3 +25,5 @@ setenv BCFTOOLS_HOME $::env(MODULESAPPSDIR)/bcftools/$version/bin
 #setenv BCFTOOLS_PLUGINS $::env(MODULESAPPSDIR)/bcftools/$version/bcftools/plugins
 prepend-path LD_LIBRARY_PATH $::env(MODULESAPPSDIR)/bcftools/$version/lib
 prepend-path C_INCLUDE_PATH $::env(MODULESAPPSDIR)/bcftools/$version/include/htslib
+prepend-path C_INCLUDE_PATH $::env(MODULESAPPSDIR)/bcftools/$version/include
+

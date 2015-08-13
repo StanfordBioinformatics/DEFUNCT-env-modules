@@ -30,3 +30,6 @@ prepend-path PATH $::env(MODULESAPPSDIR)/STAR/STAR_$version/STAR-Fusion-0.1.1
 # set env vars for STAR Genome and GTF locations
 setenv STAR_HG19_GENOME /srv/gs1/projects/scg/Genomes/H_sapiens/hg19/indexes/STAR/$version/iGenomes/05_14_2014
 setenv STAR_HG19_GTF /srv/gs1/projects/scg/Genomes/H_sapiens/illumina_igenomes_homo_sapiens_ucsc_hg19.gtf
+setenv STAR_MM9_GENOME /srv/gs1/projects/scg/Genomes/Mus_musculus/mm9/indexes/STAR/$version/iGenomes/05_14_2014
+setenv STAR_MM9_GTF /srv/gs1/projects/scg/Genomes/Mus_musculus/illumina_igenomes_mus_musculus_ucsc_mm9.gtf
+
