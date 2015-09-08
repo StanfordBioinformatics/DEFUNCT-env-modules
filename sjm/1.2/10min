@@ -19,11 +19,11 @@ module-whatis "initializes sjm (simple job manager)"
 module add modsappsdir
 
 # for Tcl script use only
-set sjmversion 1.2
+set sjmversion 1.2/10min
 
-setenv RUN_WITH_ENV $::env(MODULESAPPSDIR)/sjm/$sjmversion/10min/bin/run_with_env
+setenv RUN_WITH_ENV $::env(MODULESAPPSDIR)/sjm/$sjmversion/bin/run_with_env
 
 
-prepend-path PATH $::env(MODULESAPPSDIR)/sjm/$sjmversion/10min/bin
+prepend-path PATH $::env(MODULESAPPSDIR)/sjm/$sjmversion/bin
 prepend-path LD_LIBRARY_PATH /srv/gsfs0/admin_stuff/sge/lib/lx-amd64/
 prepend-path LD_LIBRARY_PATH $::env(MODULESAPPSDIR)/boost/1.51.0/lib

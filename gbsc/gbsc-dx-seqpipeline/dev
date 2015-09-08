@@ -24,6 +24,7 @@ module load python/2.7
 module load dnanexus_new/1.5.10
 module load gbsc/scgpm_lims
 module load gbsc/gbsc_utils
+module load r/3.2.0
 
 #exports env var DXTOOLKIT that needs to be sourced.
 module load dx-toolkit/current 
